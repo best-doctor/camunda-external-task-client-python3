@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='camunda-external-task-client-python3',
-    version='4.0.0',
+    version='4.0.1',
     author='Deserve Labs',
     author_email='devteam@deserve.com',
     packages=find_packages(exclude=("tests",)),
-    url='https://github.com/yogeshrnaik/camunda-external-task-client-python3',
+    url='https://github.com/best-doctor/camunda-external-task-client-python3',
     license='LICENSE.txt',
     description='Camunda External Task Client for Python 3',
     long_description=open('README.md').read(),
@@ -21,6 +21,6 @@ setup(
     ],
     python_requires='>=3.7',
     install_requires=[
-        'requests==2.24.0'
+        'requests>=2.24.0'
     ]
 )
